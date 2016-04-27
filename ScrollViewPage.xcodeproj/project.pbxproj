@@ -14,6 +14,7 @@
 		8721BCB61CD0903A00C3D96F /* ScrollViewPage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8721BCB41CD0903A00C3D96F /* ScrollViewPage.xcdatamodeld */; };
 		8721BCB81CD0903A00C3D96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8721BCB71CD0903A00C3D96F /* Assets.xcassets */; };
 		8721BCBB1CD0903A00C3D96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8721BCB91CD0903A00C3D96F /* LaunchScreen.storyboard */; };
+		8721BCC41CD090C700C3D96F /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8721BCC31CD090C700C3D96F /* TitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		8721BCB71CD0903A00C3D96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8721BCBA1CD0903A00C3D96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8721BCBC1CD0903A00C3D96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8721BCC21CD090C600C3D96F /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		8721BCC31CD090C700C3D96F /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				8721BCAC1CD0903900C3D96F /* AppDelegate.m */,
 				8721BCAE1CD0903900C3D96F /* ViewController.h */,
 				8721BCAF1CD0903900C3D96F /* ViewController.m */,
+				8721BCC21CD090C600C3D96F /* TitleView.h */,
+				8721BCC31CD090C700C3D96F /* TitleView.m */,
 				8721BCB11CD0903900C3D96F /* Main.storyboard */,
 				8721BCB71CD0903A00C3D96F /* Assets.xcassets */,
 				8721BCB91CD0903A00C3D96F /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			files = (
 				8721BCB01CD0903900C3D96F /* ViewController.m in Sources */,
 				8721BCAD1CD0903900C3D96F /* AppDelegate.m in Sources */,
+				8721BCC41CD090C700C3D96F /* TitleView.m in Sources */,
 				8721BCB61CD0903A00C3D96F /* ScrollViewPage.xcdatamodeld in Sources */,
 				8721BCAA1CD0903900C3D96F /* main.m in Sources */,
 			);
